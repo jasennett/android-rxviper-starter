@@ -31,6 +31,8 @@ dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation "com.android.support:appcompat-v7:${lib.support}"
+    implementation "com.android.support:support-v4:${lib.support}"
+    implementation "com.android.support:recyclerview-v7:${lib.support}"
 
     implementation "io.reactivex.rxjava2:rxjava:${lib.rxjava}"
     implementation "io.reactivex.rxjava2:rxandroid:${lib.rxandroid}"
